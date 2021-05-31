@@ -14,7 +14,7 @@
 		if($data['centers'][$i]["sessions"][0]["available_capacity"] > 0){
 			$counter+=1;
 			echo "<h3>Center name : ".$data['centers'][$i]["name"]."</h3>";
-			echo "<h3>Available Capacity : ".$data['centers'][$i]["sessions"][$i]['available_capacity']."</h3>";
+			echo "<h3>Available Capacity : ".$data['centers'][$i]["sessions"][0]['available_capacity']."</h3>";
 			echo "<h3>Timing : ".$data['centers'][$i]["from"]." to ".$data['centers'][$i]["to"]."</h3>";
 			echo "<h3>Min age limit : ".$data['centers'][$i]["sessions"][0]['min_age_limit']."</h3>";
 			}
