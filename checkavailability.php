@@ -17,6 +17,7 @@
 			echo "<h3>Available Capacity : ".$data['centers'][$i]["sessions"][0]['available_capacity']."</h3>";
 			echo "<h3>Timing : ".$data['centers'][$i]["from"]." to ".$data['centers'][$i]["to"]."</h3>";
 			echo "<h3>Min age limit : ".$data['centers'][$i]["sessions"][0]['min_age_limit']."</h3>";
+			echo "<h3>Fee type :".$data['centers'][$i]["fee_type"]."</h3><hr>";
 			}
 		}
 
